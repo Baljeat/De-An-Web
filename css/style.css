@@ -5,16 +5,16 @@
     margin: auto; */
 
 }
+/* img{
+    width: 1540px;
+    height: 400px;
+    
+    } */
+    
 .Images{
     margin: 0;
     padding: 0;
 }
-img{
-    width: 1540px;
-    height: 400px;
-
-}
-
 .slick-prev, .slick-next {
     background: none; /* Loại bỏ nền */
     border: none; /* Loại bỏ viền */
@@ -43,7 +43,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*------------------------------------Header------------------------------------ */
 header {
     height: 140px;
     font-family: 'Times New Roman', Times, serif;
@@ -271,12 +271,18 @@ nav ul li a:hover {
 }
 
 .footer-bottom {
+    
     text-align: center;
     margin-top: 20px;
     padding-top: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 0.9rem;
+    img{
+        width:"290px";
+        height:"100px";
+    }
 }
+
 
 /* Đáp ứng cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
